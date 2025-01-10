@@ -203,7 +203,6 @@ main {
 .section5 {
     margin: 80px 160px;
 }
-
 .section5>h1 {
     margin-bottom: 24px;
     color: rgb(14, 14, 14);
@@ -211,52 +210,39 @@ main {
     font-weight: 700;
     line-height: 48px;
 }
-
-.question1 {
-    display: flex;
-    justify-content: space-between;
-}
-
 .section5>div {
     padding: 32px;
     border: 1 px solid black;
     background-color: white;
 }
-
 table {
     padding: 32px;
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
-
 th {
     background-color: #d8f3dc;
     text-align: left;
     padding: 20px;
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
 }
-
 td{
     border: 1px solid #ddd;
-    padding: 26px;
+     padding: 26px; 
     color: rgb(14, 14, 14);
     font-size: 16px;
     font-weight: 600;
-    line-height: 19px;
 
 }
-
-select {
+select{
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     border: 1px solid rgb(14, 14, 14);
     background: rgb(198, 228, 214);
-
 }
