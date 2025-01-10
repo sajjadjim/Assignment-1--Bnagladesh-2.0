@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+main, header {
+    background-color: rgb(242, 252, 250);
+}
+
 .navigation_bar {
     display: flex;
     justify-content: space-between;
@@ -64,7 +68,6 @@
     font-weight: 500;
 }
 
-/* shared File Here Write  */
 .btn {
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -76,7 +79,6 @@
     text-decoration: none;
 }
 
-/* section 2 css start from here  */
 .scetion_2 {
     margin: 80px 160px;
 }
@@ -85,4 +87,137 @@
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.scetion_2_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scetion_2_card h4 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.scetion_2_card p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.scetion_2_card div {
+    list-style: none;
+    border: 3px solid black;
+    padding: 25px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+/* section 3 start from here */
+.section_3 {
+    margin: 80px 160px 32px;
+}
+
+.section_3>h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.section_3>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.section3-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px;
+}
+
+.section3_card {
+    padding: 32px;
+}
+
+.section3_card>h4 {
+    margin-top: 25px;
+}
+
+.section3_card>p {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.scetion3_btn {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px 23px;
+
+}
+
+/* section 4 start From here */
+.section4 {
+    margin: 80px 160px 32px;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.section4>div {
+    padding: 48px 15px;
+}
+
+/* scetion 5 css start from here */
+.section5 {
+    margin: 80px 160px;
+}
+
+.section5>h1 {
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.scetion5_question {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.section5_question .tittle {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    padding: 27px 19px;
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
