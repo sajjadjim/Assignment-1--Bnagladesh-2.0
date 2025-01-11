@@ -374,109 +374,118 @@ select {
     line-height: 48px;
     margin: 30px 12px;
     margin-bottom: -8px;
+    cursor: pointer;
 }
 
-.section7 input {
-    position: static;
-    width: 950px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 40px 20px 40px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    border: 1px solid white;
-}
+.section7_amount_select ul li:hover {
+    background-color: rgb(209, 248, 236);
+    box-shadow: 5px 5px 5px rgb(0, 106, 80);
+    color: rgb(125, 125, 125);
+    }
 
-.other_amount_taka::placeholder {
-    text-align: center;
-    line-height: 50px;
-}
+    .section7 input {
+        position: static;
+        width: 950px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border: 1px solid white;
+    }
 
-/* section8 css start from here  */
-.section8 {
-    margin: 80px 160px;
-    padding: 80px 100px;
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-    justify-content: center;
-}
+    .other_amount_taka::placeholder {
+        text-align: center;
+        line-height: 50px;
+    }
 
-.section8 h1 {
-    color: rgb(14, 14, 14);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 15px;
-}
+    /* section8 css start from here  */
+    .section8 {
+        margin: 80px 160px;
+        padding: 80px 100px;
+        border-radius: 24px;
+        background: rgb(198, 228, 214);
+        justify-content: center;
+    }
 
-.section8 p {
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 24px;
-    padding: 0px 150px;
-}
+    .section8 h1 {
+        color: rgb(14, 14, 14);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 
-.section8 div {
-    justify-content: center;
-    align-items: center;
-}
+    .section8 p {
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 24px;
+        padding: 0px 150px;
+    }
 
-.section8 input {
-    align-items: center;
-    padding: 20px 40px 20px 40px;
-    margin-bottom: 32px;
-    margin-left: 70px;
-    border: 1px solid white;
-    width: 650px;
-    height: 14px;
-    border-radius: 5px 0px 0px 5px;
-    -webkit-border-radius: 5px 0px 0px 5px;
-    -moz-border-radius: 5px 0px 0px 5px;
-    -ms-border-radius: 5px 0px 0px 5px;
-    -o-border-radius: 5px 0px 0px 5px;
-}
+    .section8 div {
+        justify-content: center;
+        align-items: center;
+    }
 
-.section8 div .btn {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 0px 10px 10px 0px;
-}
+    .section8 input {
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+        margin-bottom: 32px;
+        margin-left: 70px;
+        border: 1px solid white;
+        width: 650px;
+        height: 14px;
+        border-radius: 5px 0px 0px 5px;
+        -webkit-border-radius: 5px 0px 0px 5px;
+        -moz-border-radius: 5px 0px 0px 5px;
+        -ms-border-radius: 5px 0px 0px 5px;
+        -o-border-radius: 5px 0px 0px 5px;
+    }
+
+    .section8 div .btn {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 0px 10px 10px 0px;
+    }
 
 
 
 
 
-/*            Footer section start from here                     */
-footer {
-    padding: 50px 230px;
-    justify-content: center;
+    /*            Footer section start from here                     */
+    footer {
+        padding: 50px 230px;
+        justify-content: center;
 
-}
-footer h1 {
-    color: rgb(14, 14, 14);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0%;
-    text-align: center;
-    padding-bottom: 32px;
-}
+    }
 
-footer ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 32px;
-}
-footer ul li{
-    padding: 0px 15px;
-}
+    footer h1 {
+        color: rgb(14, 14, 14);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+
+    footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+
+    footer ul li {
+        padding: 0px 15px;
+    }
