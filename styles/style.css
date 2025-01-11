@@ -70,7 +70,7 @@ main {
     margin-left: -40px;
 }
 
-.scetion1_h1 {
+.section_1_contain h1 {
     color: rgb(14, 14, 14);
     font-size: 56px;
     font-weight: 700;
@@ -79,7 +79,7 @@ main {
     margin-bottom: 50px;
 }
 
-.section1_p {
+.section_1_contain p {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
@@ -96,6 +96,14 @@ main {
     text-decoration: none;
 }
 
+.section_1_contain .btn:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 106, 80);
+    color: black;
+    box-shadow: 2px 2px 5px rgb(0, 106, 80);
+}
+
+/* section 2 css start from here */
 .section_2 {
     margin: 80px 160px;
 }
@@ -399,6 +407,7 @@ select {
     box-shadow: 5px 5px 5px rgb(0, 106, 80);
     color: rgb(125, 125, 125);
 }
+
 .section7 input {
     position: static;
     width: 950px;
@@ -416,10 +425,12 @@ select {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.section7 input[type="number"]{
+
+.section7 input[type="number"] {
     font-size: large;
     font-weight: 600;
 }
+
 .other_amount_taka::placeholder {
     text-align: center;
     line-height: 50px;
