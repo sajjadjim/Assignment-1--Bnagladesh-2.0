@@ -49,6 +49,7 @@ main {
     font-weight: 600;
     line-height: 22px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav_btn:hover {
@@ -215,6 +216,32 @@ main {
 
 .section4>div {
     padding: 48px 15px;
+}
+
+.section4 p {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section4 h4 {
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.scetion4 .p {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 /*                     scetion 5 css start from here              */
