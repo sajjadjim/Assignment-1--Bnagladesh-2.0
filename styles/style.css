@@ -48,6 +48,12 @@ main {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    cursor: pointer;
+}
+
+.nav_btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
 }
 
 /* Section-1 CSS file start from here  */
@@ -70,7 +76,7 @@ main {
     font-weight: 700;
     text-align: left;
     margin-top: 16px;
-    margin-bottom: 28px;
+    margin-bottom: 50px;
 }
 
 .section1_p {
@@ -90,23 +96,23 @@ main {
     text-decoration: none;
 }
 
-.scetion_2 {
+.section_2 {
     margin: 80px 160px;
 }
 
-.scetion_2_h1 {
+.section_2_h1 {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
 
-.scetion_2_card {
+.section_2_card {
     display: flex;
     justify-content: space-between;
 }
 
-.scetion_2_card h4 {
+.section_2_card h4 {
     margin-top: 25px;
     margin-bottom: 12px;
     color: rgba(14, 14, 14, 0.8);
@@ -116,7 +122,7 @@ main {
     letter-spacing: 0%;
 }
 
-.scetion_2_card p {
+.section_2_card p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -124,7 +130,7 @@ main {
     letter-spacing: 0%;
 }
 
-.scetion_2_card div {
+.section_2_card div {
     list-style: none;
     border: 3px solid black;
     padding: 25px;
@@ -173,7 +179,7 @@ main {
     margin-bottom: 24px;
 }
 
-.scetion3_btn {
+.section3_btn {
     text-decoration: none;
     color: white;
     border-radius: 8px;
@@ -185,7 +191,11 @@ main {
 
 }
 
-/* section 4 start From here */
+.section3_btn:hover {
+    color: black;
+}
+
+/*                         section 4 start From here                 */
 .section4 {
     margin: 80px 160px 32px;
     background-image: url("../assets/quote-bg.png");
@@ -199,7 +209,7 @@ main {
     padding: 48px 15px;
 }
 
-/* scetion 5 css start from here */
+/*                     scetion 5 css start from here              */
 .section5 {
     margin: 80px 160px;
 }
@@ -252,7 +262,7 @@ select {
     background: rgb(198, 228, 214);
 }
 
-/* section 6 start from here  */
+/*                      section 6 start from here                      */
 
 .section6 {
     margin: 80px 160px;
@@ -285,7 +295,8 @@ select {
     margin-bottom: 24px;
 }
 
-/* shared section 6 card css here write */
+
+/*                 shared section 6 card css here write                  */
 .section6_details>div {
     display: flex;
 }
@@ -335,6 +346,12 @@ select {
     margin-bottom: 32px;
 }
 
+.section6_details div .btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(0, 99, 51);
+}
+
 /* section 7 css start from here */
 .section7 {
     margin: 80px 160px;
@@ -381,111 +398,127 @@ select {
     background-color: rgb(209, 248, 236);
     box-shadow: 5px 5px 5px rgb(0, 106, 80);
     color: rgb(125, 125, 125);
-    }
+}
+.section7 input {
+    position: static;
+    width: 950px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.section7 input[type="number"]{
+    font-size: large;
+    font-weight: 600;
+}
+.other_amount_taka::placeholder {
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+}
 
-    .section7 input {
-        position: static;
-        width: 950px;
-        height: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 40px 20px 40px;
-        margin-top: 32px;
-        margin-bottom: 32px;
-        border: 1px solid white;
-    }
+/* section8 css start from here  */
+.section8 {
+    margin: 80px 160px;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    justify-content: center;
+}
 
-    .other_amount_taka::placeholder {
-        text-align: center;
-        line-height: 50px;
-    }
+.section8 h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
-    /* section8 css start from here  */
-    .section8 {
-        margin: 80px 160px;
-        padding: 80px 100px;
-        border-radius: 24px;
-        background: rgb(198, 228, 214);
-        justify-content: center;
-    }
+.section8 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 0px 150px;
+}
 
-    .section8 h1 {
-        color: rgb(14, 14, 14);
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-bottom: 15px;
-    }
+form {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 25px;
+}
 
-    .section8 p {
-        color: rgba(14, 14, 14, 0.7);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-bottom: 24px;
-        padding: 0px 150px;
-    }
+form input[type="email"] {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    flex: 1;
+    max-width: 400px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -ms-border-radius: 5px 0px 0px 5px;
+    -o-border-radius: 5px 0px 0px 5px;
+}
 
-    .section8 div {
-        justify-content: center;
-        align-items: center;
-    }
+form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgb(0, 106, 80);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
 
-    .section8 input {
-        align-items: center;
-        padding: 20px 40px 20px 40px;
-        margin-bottom: 32px;
-        margin-left: 70px;
-        border: 1px solid white;
-        width: 650px;
-        height: 14px;
-        border-radius: 5px 0px 0px 5px;
-        -webkit-border-radius: 5px 0px 0px 5px;
-        -moz-border-radius: 5px 0px 0px 5px;
-        -ms-border-radius: 5px 0px 0px 5px;
-        -o-border-radius: 5px 0px 0px 5px;
-    }
-
-    .section8 div .btn {
-        color: rgb(255, 255, 255);
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 0px 10px 10px 0px;
-    }
+form button:hover {
+    background-color: #004c37;
+}
 
 
+/*            Footer section start from here                     */
+footer {
+    padding: 50px 230px;
+    justify-content: center;
 
+}
 
+footer h1 {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 32px;
+}
 
-    /*            Footer section start from here                     */
-    footer {
-        padding: 50px 230px;
-        justify-content: center;
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
 
-    }
-
-    footer h1 {
-        color: rgb(14, 14, 14);
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 38px;
-        letter-spacing: 0%;
-        text-align: center;
-        padding-bottom: 32px;
-    }
-
-    footer ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-top: 32px;
-    }
-
-    footer ul li {
-        padding: 0px 15px;
-    }
+footer ul li {
+    padding: 0px 15px;
+}
