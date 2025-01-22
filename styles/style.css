@@ -340,6 +340,9 @@ select {
 
 
 /*                 shared section 6 card css here write                  */
+.section6_details{
+        box-shadow: 10px 10px 10px rgb(255, 123, 0);
+}
 .section6_details>div {
     display: flex;
 }
@@ -436,9 +439,11 @@ select {
     margin: 30px 12px;
     margin-bottom: -8px;
     cursor: pointer;
+    transition: 1.2s;
 }
 
 .section7_amount_select ul li:hover {
+    transform: scale(1.05);
     background-color: rgb(209, 248, 236);
     box-shadow: 5px 5px 5px rgb(0, 106, 80);
     color: rgb(125, 125, 125);
