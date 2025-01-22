@@ -127,14 +127,22 @@ main {
 }
 
 /* card linear gradient color given here code */
-.section_2_card .card_1,
-.card_4 {
+.section_2_card .card_1
+{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(153, 219, 192), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.section_2_card .card_3 {
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(153, 219, 192), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
-.section_2_card .card_2,
-.card_3 {
+
+.section_2_card .card_2 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(253, 159, 159), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.section_2_card .card_4 {
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(253, 159, 159), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
@@ -751,4 +759,25 @@ footer ul li {
         line-height: 24px;
         margin: 0px -70px 10px -70px;
     }
+    /* color change card */
+.section_2_card .card_1 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(153, 219, 192), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.section_2_card .card_4 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(153, 219, 192), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+
+.section_2_card .card_2 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(253, 159, 159), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.section_2_card .card_3 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(253, 159, 159), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
 }
