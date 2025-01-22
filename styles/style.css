@@ -643,7 +643,7 @@ footer ul li {
     }
 
     /* hero contain here */
-    .section_1_picture {
+    .section_1_picture img{
         width: 100%;
         position: relative;
         margin: 0px;
