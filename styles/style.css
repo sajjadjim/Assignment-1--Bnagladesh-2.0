@@ -10,7 +10,8 @@ header {
     border: 1px solid rgb(242, 252, 250);
 }
 
-main, header {
+main,
+header {
     background-color: rgb(249, 249, 249);
 }
 
@@ -78,6 +79,7 @@ main {
     text-align: left;
     margin-top: 16px;
     margin-bottom: 50px;
+    /* border: 1px solid black; */
 }
 
 .section_1_contain p {
@@ -95,6 +97,7 @@ main {
     padding: 17px 34px;
     cursor: pointer;
     text-decoration: none;
+    transition: 1.5s;
 }
 
 .section_1_contain .btn:hover {
@@ -416,7 +419,8 @@ select {
 
 .section7_amount_select ul {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .section7_amount_select ul li {
@@ -426,7 +430,7 @@ select {
     background: rgb(255, 255, 255);
     padding: 40px;
     color: rgba(14, 14, 14, 0.8);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 48px;
     margin: 30px 12px;
@@ -564,4 +568,106 @@ footer ul {
 
 footer ul li {
     padding: 0px 15px;
+}
+
+/* Make more responsive the website code here  */
+@media screen and (max-width:590px) {
+
+    /* no margin queery here  */
+    .navigation_bar,
+    .section_1,
+    .section3-car,
+    .section3-card {
+        flex-direction: column;
+    }
+
+    .section3-card {
+        align-items: center;
+    }
+
+    .section3_card {
+        width: 500px;
+        height: 290px;
+        border: 5px solid white;
+    }
+
+    .picture img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .section6_details>div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section_1,
+    .section_2,
+    .section_3,
+    .section4,
+    .section5,
+    .section6,
+    .section7 {
+
+        margin: 10px;
+
+    }
+
+    /* hero contain here */
+    .section_1_contain h1 {
+        color: rgb(14, 14, 14);
+        font-size: 56px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .section8 {
+        margin: 30px 10px 20px 10px;
+    }
+
+    footer {
+        margin: 20px 5px 10px 5px;
+        padding: 0px;
+    }
+
+    /* padding low here */
+    .section8 p,
+    .section8 h1 {
+        padding: 0px;
+    }
+
+    footer h1 {
+        padding: 0px;
+    }
+
+    /* donate today media querry */
+    .section7_amount_select ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section7_amount_select ul li {
+        box-sizing: border-box;
+        border-radius: 16px;
+        padding: 20px;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    /* subcribe newslatter  */
+    .section8 h1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin: 0px -70px 10px -70px;
+    }
+
+    .section8 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0px -70px 10px -70px;
+    }
 }
