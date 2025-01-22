@@ -592,7 +592,7 @@ footer ul li {
 }
 
 /* Make more responsive the website code here  */
-@media screen and (max-width:590px) {
+@media screen and (max-width:576px) {
 
     /* no margin queery here  */
     .navigation_bar,
@@ -643,7 +643,7 @@ footer ul li {
     }
 
     /* hero contain here */
-    .section_1_picture img{
+    .section_1_picture img {
         width: 100%;
         position: relative;
         margin: 0px;
@@ -666,6 +666,43 @@ footer ul li {
     .btn {
         font-size: 0.8rem;
         padding: 10px;
+    }
+
+    /* section 2 card start from here */
+    .section_2_h1 {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .section_2_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .section_2_card>div {
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* section 3 style here  */
+    /* .section3-card{
+        border: 1px solid black;
+        } */
+    .section3_card {
+        width: 100%;
+    }
+
+    .section7 input {
+        height: 10px;
+        width: 200px;
+        border-radius: 16px;
+        border: 1px solid rgb(139, 137, 137);
     }
 
     /* section 8 css start from here */
@@ -697,7 +734,7 @@ footer ul li {
         box-sizing: border-box;
         border-radius: 16px;
         padding: 20px;
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: 700;
         margin: 10px;
     }
@@ -713,32 +750,5 @@ footer ul li {
         font-size: 16px;
         line-height: 24px;
         margin: 0px -70px 10px -70px;
-    }
-
-    /* section 2 card start from here */
-    .section_2_h1 {
-        margin-top: 60px;
-        text-align: center;
-    }
-
-    .section_2_card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        margin-bottom: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .section_2_card>div {
-        width: 170px;
-        text-align: center;
-    }
-
-    .section7 input {
-        height: 10px;
-        width: 200px;
-        border-radius: 16px;
-        border: 1px solid rgb(139, 137, 137);
     }
 }
