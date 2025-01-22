@@ -120,8 +120,23 @@ main {
 }
 
 .section_2_card {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
+    gap: 15px;
+}
+
+/* card linear gradient color given here code */
+.section_2_card .card_1,
+.card_4 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(153, 219, 192), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.section_2_card .card_2,
+.card_3 {
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(253, 159, 159), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 .section_2_card h4 {
@@ -340,9 +355,10 @@ select {
 
 
 /*                 shared section 6 card css here write                  */
-.section6_details{
-        box-shadow: 10px 10px 10px rgb(255, 123, 0);
+.section6_details {
+    box-shadow: 10px 10px 10px rgb(255, 123, 0);
 }
+
 .section6_details>div {
     display: flex;
 }
@@ -620,16 +636,39 @@ footer ul li {
 
     }
 
+    /* navigation css code media query */
+    .navigation_bar {
+        padding: 10px;
+        flex-direction: row;
+    }
+
     /* hero contain here */
+    .section_1_picture {
+        width: 100%;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        top: 40px;
+        left: -70px;
+
+    }
+
     .section_1_contain h1 {
         color: rgb(14, 14, 14);
-        font-size: 56px;
+        font-size: 2rem;
         font-weight: 700;
         text-align: left;
         margin: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
+    /* Explore new Bangladesh Button */
+    .btn {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    /* section 8 css start from here */
     .section8 {
         margin: 30px 10px 20px 10px;
     }
@@ -658,7 +697,7 @@ footer ul li {
         box-sizing: border-box;
         border-radius: 16px;
         padding: 20px;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 700;
         margin: 10px;
     }
@@ -674,5 +713,32 @@ footer ul li {
         font-size: 16px;
         line-height: 24px;
         margin: 0px -70px 10px -70px;
+    }
+
+    /* section 2 card start from here */
+    .section_2_h1 {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .section_2_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .section_2_card>div {
+        width: 170px;
+        text-align: center;
+    }
+
+    .section7 input {
+        height: 10px;
+        width: 200px;
+        border-radius: 16px;
+        border: 1px solid rgb(139, 137, 137);
     }
 }
